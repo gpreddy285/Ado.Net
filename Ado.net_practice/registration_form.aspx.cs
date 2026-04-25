@@ -12,9 +12,7 @@ namespace Ado.net_practice
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
-
         protected void btnsubmit_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=logindb;Integrated Security=True");
