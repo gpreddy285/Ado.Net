@@ -34,7 +34,7 @@ namespace Ado.net_practice
             cmd.ExecuteNonQuery();
             Response.Write("Record inserted successfully");
             con.Close();
-        
+            Gridbind();
 
 
         }
