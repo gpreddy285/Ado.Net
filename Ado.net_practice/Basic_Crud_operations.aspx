@@ -37,6 +37,7 @@
                     <td>
                         <asp:Button ID="btndelete" runat="server" Text="DELETE" OnClick="btndelete_Click" />
                     </td>
+                    
                 </tr>
                 <tr>
                     <td>
@@ -55,7 +56,7 @@
                 <tr>
                     <td></td>
                     <td>
-                        <asp:GridView ID="grdcrud" runat="server"></asp:GridView>
+                        <asp:GridView ID="grdcrud" runat="server" ></asp:GridView>
                     </td>
                 </tr>
             </table>

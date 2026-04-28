@@ -13,7 +13,7 @@ namespace Ado.net_practice
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+           
         }
         protected void Gridbind()
         {
@@ -69,5 +69,7 @@ namespace Ado.net_practice
             grdcrud.DataBind();
 
         }
+
+        
     }
 }

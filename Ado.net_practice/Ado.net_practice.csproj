@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Basic_Crud_operations.aspx" />
+    <Content Include="employee_girdview.aspx" />
+    <Content Include="login_gridview.aspx" />
     <Content Include="registrationform%28saturday%29.aspx" />
     <Content Include="registration_form.aspx" />
     <Content Include="userlogin.aspx" />
@@ -80,6 +82,20 @@
     </Compile>
     <Compile Include="Basic_Crud_operations.aspx.designer.cs">
       <DependentUpon>Basic_Crud_operations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="employee_girdview.aspx.cs">
+      <DependentUpon>employee_girdview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="employee_girdview.aspx.designer.cs">
+      <DependentUpon>employee_girdview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login_gridview.aspx.cs">
+      <DependentUpon>login_gridview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login_gridview.aspx.designer.cs">
+      <DependentUpon>login_gridview.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="registrationform%28saturday%29.aspx.cs">
