@@ -40,7 +40,7 @@
                             DataKeyNames="userid"
                             OnRowCancelingEdit="grduser_RowCancelingEdit" OnRowEditing="grduser_RowEditing"
                             OnRowUpdating="grduser_RowUpdating"
-                            PageSize="5" >
+                            PageSize="5" OnRowDeleting="grduser_RowDeleting" >
                             <Columns>
                                 <asp:TemplateField HeaderText="Username">
                                     <ItemTemplate>

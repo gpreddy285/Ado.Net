@@ -78,5 +78,17 @@ namespace Ado.net_practice
             grduser.PageIndex = e.NewPageIndex;
             Bindgriddata(sender, e);
         }
+
+        protected void grduser_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        {
+            con.Open();
+            int userid = Convert.ToInt32(grduser.DataKeys[e.RowIndex].Value);
+            SqlCommand cmd = new SqlCommand("delete from tb_login where userid=@userid",con);
+            cmd.Parameters.AddWithValue("@userid",userid);
+            cmd.ExecuteNonQuery();
+            Response.Write("record deleted successfully");
+            con.Close();
+            Bindgriddata(sender, e);
+        }
     }
 }
