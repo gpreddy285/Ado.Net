@@ -79,6 +79,7 @@ namespace Ado.net_practice
             Bindgriddata(sender, e);
         }
 
+        //row deleting event
         protected void grduser_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
             con.Open();

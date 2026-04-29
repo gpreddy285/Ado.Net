@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37111.16 d17.14
+VisualStudioVersion = 17.14.37111.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ado.net_practice", "Ado.net_practice\Ado.net_practice.csproj", "{F0FA3AED-225C-4CC9-A749-7C7F4C1846BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bussiness_logic_layer", "Bussiness_logic_layer\Bussiness_logic_layer.csproj", "{FD79F286-660B-4DA2-992B-DF50874BDC9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data_access_layer", "data_access_layer\data_access_layer.csproj", "{784856C6-6822-487B-A8C5-AB9A3280DD0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F0FA3AED-225C-4CC9-A749-7C7F4C1846BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0FA3AED-225C-4CC9-A749-7C7F4C1846BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0FA3AED-225C-4CC9-A749-7C7F4C1846BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD79F286-660B-4DA2-992B-DF50874BDC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD79F286-660B-4DA2-992B-DF50874BDC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD79F286-660B-4DA2-992B-DF50874BDC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD79F286-660B-4DA2-992B-DF50874BDC9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784856C6-6822-487B-A8C5-AB9A3280DD0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784856C6-6822-487B-A8C5-AB9A3280DD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784856C6-6822-487B-A8C5-AB9A3280DD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784856C6-6822-487B-A8C5-AB9A3280DD0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

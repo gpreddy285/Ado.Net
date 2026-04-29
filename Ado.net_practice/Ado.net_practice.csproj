@@ -43,6 +43,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bussiness_logic_layer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bussiness_logic_layer\bin\Debug\Bussiness_logic_layer.dll</HintPath>
+    </Reference>
+    <Reference Include="data_access_layer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bussiness_logic_layer\bin\Debug\data_access_layer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -72,6 +80,7 @@
     <Content Include="login_gridview.aspx" />
     <Content Include="registrationform%28saturday%29.aspx" />
     <Content Include="registration_form.aspx" />
+    <Content Include="threetier_login.aspx" />
     <Content Include="userlogin.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -111,6 +120,13 @@
     </Compile>
     <Compile Include="registration_form.aspx.designer.cs">
       <DependentUpon>registration_form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="threetier_login.aspx.cs">
+      <DependentUpon>threetier_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="threetier_login.aspx.designer.cs">
+      <DependentUpon>threetier_login.aspx</DependentUpon>
     </Compile>
     <Compile Include="userlogin.aspx.cs">
       <DependentUpon>userlogin.aspx</DependentUpon>
